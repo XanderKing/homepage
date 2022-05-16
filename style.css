@@ -1,0 +1,40 @@
+iframe {
+    width: 300px;
+    height: 300px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+  }
+
+  @font-face {
+    src: url(fonts/Pokemon\ Classic.ttf) format("truetype");
+    font-family: pokemon;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: pokemon;
+  }
+
+  .block {
+    background-color: grey; 
+    padding: 20px;
+    margin: 1vw;   
+    border-radius: 10px;   
+  }
+
+  a:link {
+    color: white;
+  }
+  
+  a:visited {
+    color: white;
+  }
+
+  a:active {
+    color: blue;
+  }
